@@ -515,6 +515,7 @@ footer {
   font-size: 20px;
   color: #ffffff;
 }
+
 #faculty-details a {
   color: #ffffff;
   text-decoration: none !important;
@@ -522,29 +523,36 @@ footer {
   -webkit-text-decoration-skip: objects;
   font-size: 10;
 }
+
 #link {
   font-size: 15px;
 }
+
 #faculty-details ul.quick-links li a {
   color: #ffffff;
 }
+
 #faculty-details ul.social li a:hover {
   color: #eeeeee;
 }
+
 #faculty-details ul.quick-links li {
   padding: 3px 0;
   -webkit-transition: 0.5s all ease;
   -moz-transition: 0.5s all ease;
   transition: 0.5s all ease;
 }
+
 #faculty-details ul.quick-links li:hover {
   padding: 3px 0;
   margin-left: 5px;
   font-weight: 700;
 }
+
 #faculty-details ul.quick-links li a i {
   margin-right: 5px;
 }
+
 #faculty-details ul.quick-links li:hover a i {
   font-weight: 700;
 }
@@ -585,13 +593,12 @@ footer {
 /*---------- Index Page ----------- */
 .home {
   overflow-x: hidden;
-  height: 100%;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  /* font-size: 16px; */
   text-align: center;
 }
 
@@ -1567,6 +1574,12 @@ footer {
   font-family: "Raleway", sans-serif;
 }
 
+@media (max-width: 400px) {
+  .course {
+    font-size: 15px !important;
+  }
+}
+
 .ctitle {
   text-align: center;
   color: black;
@@ -1828,6 +1841,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 100px;
 }
 
 .form {
@@ -1978,6 +1992,7 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+
   .main-timeline .timeline,
   .main-timeline .timeline:nth-child(even) {
     width: 100%;
