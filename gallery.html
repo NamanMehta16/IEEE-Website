@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <!-- Navbar -->
@@ -40,12 +41,12 @@
 
 <body class="gallery">
   <br /><br /><br />
-  <div class="loop6"></div>
-  <div class="loop7 d-none d-md-block"></div>
-  <div class="loop8"></div>
-  <div class="circle4"></div>
-  <img src="./images/logo2.png" alt="" width="80" class="logo2">
-  <div class="container gallery-container">
+  <div class="loop6" data-aos="fade-right" data-aos-duration="1000"></div>
+  <div class="loop7 d-none d-md-block" data-aos="fade-left" data-aos-duration="1000"></div>
+  <div class="loop8" data-aos="zoom-in" data-aos-duration="1000"></div>
+  <div class="circle4" data-aos="fade-up" data-aos-duration="1000"></div>
+  <img src="./images/logo2.png" alt="" width="80" class="logo2" data-aos="zoom-in" data-aos-duration="1000">
+  <div class=" gallery-container">
     <h1>Webinar Series by IEEE-GIT Student Branch in June and July'2020</h1>
     <hr style="background: white; width: 60%;" />
 
@@ -85,7 +86,7 @@
     </div>
   </div>
 
-  <div class="container gallery-container">
+  <div class="gallery-container">
     <h1>
       Student Branch Delegation at AISYWC'19-Hyderabad on September'2019
     </h1>
@@ -126,7 +127,7 @@
       </div>
     </div>
   </div>
-  <div class="container gallery-container">
+  <div class="gallery-container">
     <h1>Student Leadership Program 2019 on 24th August'2019</h1>
     <hr style="background: white; width: 60%;" />
 
@@ -195,7 +196,7 @@
       </div>
     </div>
   </div>
-  <div class="container gallery-container">
+  <div class="gallery-container">
     <h1>
       Volunteering at ISKON during Flood relief work on 12th and 13th
       August'2019
@@ -237,7 +238,7 @@
       </div>
     </div>
   </div>
-  <div class="container gallery-container">
+  <div class="gallery-container">
     <h1>Green Day Celebration- Saplings planted on 23rd October'2018</h1>
     <hr style="background: white; width: 60%;" />
 
@@ -321,6 +322,10 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init()
   </script>
 </body>
 

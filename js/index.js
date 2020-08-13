@@ -1,6 +1,6 @@
 /* ------------- Loading page ----------- */
 $(window).on("load", function () {
-  $(".loading-page").hide();
+  $(".loading-page").hide('slow');
 });
 
 /* ---------- Navbar mobile view---------- */

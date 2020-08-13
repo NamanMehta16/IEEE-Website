@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <!-- Navbar -->
@@ -43,15 +44,20 @@
   <section class="loading-page">
     <div id="loader">
       <img class="load-img" src="images/logo.png" alt="" />
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player class="mt-2" src="https://assets5.lottiefiles.com/packages/lf20_ObshHL.json"
+        background="transparent" speed="1" loop autoplay>
+      </lottie-player>
     </div>
   </section>
 
   <!-- ..............Main.................. -->
-  <div class="loop6"></div>
-  <div class="loop7 d-none d-md-block"></div>
-  <div class="loop8"></div>
-  <img src="./images/logo2.png" alt="" width="80" class="logo2">
-  <section class="container">
+  <div class="loop6" data-aos="fade-right" data-aos-duration="1000"></div>
+  <div class="loop7 d-none d-md-block" data-aos="fade-left" data-aos-duration="1000"></div>
+  <div class="loop8" data-aos="zoom-in" data-aos-duration="1000"></div>
+  <div class="circle4" data-aos="fade-up" data-aos-duration="1000"></div>
+  <img src="./images/logo2.png" alt="" width="80" class="logo2" data-aos="zoom-in" data-aos-duration="1000">
+  <section class="container" data-aos="fade-up" data-aos-duration="800">
     <div class="page-header">
       <br /><br />
       <br />
@@ -357,6 +363,10 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init()
   </script>
 </body>
 
